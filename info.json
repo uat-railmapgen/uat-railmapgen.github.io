@@ -1,6 +1,6 @@
 {
   "component": "railmapgen.github.io",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "environment": "UAT",
   "instance": "GitHub"
 }
