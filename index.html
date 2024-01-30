@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <script type="module" crossorigin src="/assets/polyfills-85dee295.js"></script>
+      <script type="module" crossorigin src="/assets/polyfills-dTtI00kG.js"></script>
 
         <meta charset="utf-8" />
         <link rel="icon" href="/favicon.ico" />
@@ -18,21 +18,44 @@ user's mobile device or desktop. See https://developers.google.com/web/fundament
         <link rel="manifest" href="/manifest.json" />
 
         <title>Rail Map Toolkit</title>
-      <script type="module" crossorigin src="/assets/index-ebf27855.js"></script>
-      <link rel="modulepreload" crossorigin href="/assets/react-82cad4c9.js">
-      <link rel="modulepreload" crossorigin href="/assets/chakra-296df61a.js">
-      <link rel="stylesheet" href="/assets/index-e4fb8398.css">
-      <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+      <script type="module" crossorigin src="/assets/index-2LyeDGuu.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/react-Ee-ZCU_z.js">
+      <link rel="modulepreload" crossorigin href="/assets/chakra-wsdJ9xX1.js">
+      <link rel="stylesheet" crossorigin href="/assets/index-YURqyO0b.css">
+      <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
       <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
-        <div id="root"></div>
-
-        
+        <div id="root">
+            <p style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                Loading Rail Map Toolkit...
+            </p>
+            <p style="position: absolute;top: 75%;left: 50%;transform: translate(-50%, -50%);margin: 0;font-size: small;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;color: gray;">
+                Seeing this page for too long? Try another mirror
+                <a href="https://railmapgen.github.io" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://railmapgen.gitlab.io" target="_blank" rel="noreferrer">Gitlab</a>
+                or the
+                <a href="https://github.com/railmapgen/railmapgen.github.io/releases" target="_blank" rel="noreferrer">offline applications</a>
+                .
+                <br/>
+                <br/>
+                Offline applications also available via mirror.ghproxy.com
+                <a id="win">Windows</a>
+                <a id="mac">MacOS</a>
+                <a id="linux">Linux</a>
+                if you are blocked by GFW :)
+            </p>
+        </div>
+        <script>
+            const d = new Date();const tag=`${d.getFullYear()}${String(d.getMonth()+1).padStart(2, '0')}01`;const ver=`${String(d.getFullYear()).slice(-2)}.${d.getMonth()+1}.1`;
+            document.getElementById('win').href=`https://mirror.ghproxy.com/https://github.com/railmapgen/railmapgen.github.io/releases/download/tauri-${tag}/railmapgen_${ver}_x64-setup.exe`;
+            document.getElementById('mac').href=`https://mirror.ghproxy.com/https://github.com/railmapgen/railmapgen.github.io/releases/download/tauri-${tag}/railmapgen_${ver}_x64.dmg`;
+            document.getElementById('linux').href=`https://mirror.ghproxy.com/https://github.com/railmapgen/railmapgen.github.io/releases/download/tauri-${tag}/railmapgen_${ver}_amd64.deb`;
+        </script>
 <!--        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9532859204720704" crossorigin="anonymous"></script>-->
       <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-      <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-fb034831.js"></script>
-      <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-58563e71.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+      <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-ApJ7sGfZ.js"></script>
+      <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-Y3pic8af.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
     </body>
 </html>
