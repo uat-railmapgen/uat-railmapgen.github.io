@@ -1,6 +1,6 @@
 {
   "component": "railmapgen.github.io",
-  "version": "2.0.12",
+  "version": "2.0.16.#151-Enhanced-sync-strategy.df46319",
   "environment": "UAT",
   "instance": "GitHub"
 }
