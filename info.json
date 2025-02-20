@@ -1,6 +1,6 @@
 {
   "component": "railmapgen.github.io",
-  "version": "2.1.5",
+  "version": "2.1.5.#179-Support-new-app-Rail-Map-Announcer.e8b62da",
   "environment": "UAT",
   "instance": "GitHub"
 }
